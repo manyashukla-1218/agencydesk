@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #f5f6f8; color: #1a1a2e; }
+.app-shell { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin-bottom: 16px; }
+h1, h2, h3 { margin-top: 0; }
+input, select, textarea, button { font: inherit; }
+input, select, textarea { padding: 8px 10px; border: 1px solid #d5d8dd; border-radius: 6px; width: 100%; margin-bottom: 10px; }
+button { padding: 8px 14px; border: none; border-radius: 6px; background: #3a3aff; color: white; cursor: pointer; }
+button.secondary { background: #e4e4f5; color: #2b2b55; }
+button.danger { background: #e14b4b; }
+.error { color: #c0392b; margin-bottom: 10px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; margin-left: 6px; }
+.badge.internal { background: #ffe8b3; color: #7a4b00; }
+.badge.visible { background: #c9f2d8; color: #0a6b34; }
+.board { display: flex; gap: 12px; overflow-x: auto; }
+.column { min-width: 220px; background: #eef0f5; border-radius: 8px; padding: 10px; flex: 1; }
+.task-card { background: white; border-radius: 6px; padding: 10px; margin-bottom: 8px; cursor: pointer; border: 1px solid #e2e4ea; }
+.task-card:hover { border-color: #3a3aff; }
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.pill { background: #e4e4f5; padding: 4px 10px; border-radius: 999px; font-size: 13px; }
+.context-option { border: 1px solid #d5d8dd; border-radius: 8px; padding: 12px; margin-bottom: 8px; cursor: pointer; }
+.context-option:hover { border-color: #3a3aff; }
+.comment { border-bottom: 1px solid #eee; padding: 6px 0; }
+.file-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid #eee; }
