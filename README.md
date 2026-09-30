@@ -4,6 +4,10 @@ Multi-tenant agency/client project-management platform. Stack: **React
 (Vite)**, **Python (FastAPI + SQLAlchemy)**, **PostgreSQL (Alembic
 migrations)**.
 
+## 🎥 Demo Video
+
+[Watch the walkthrough on Loom](https://www.loom.com/share/f391e50fac7e4d0e8dbfd65a6e0e04d3)
+
 See [`DESIGN.md`](./DESIGN.md) for the schema/access-control write-up.
 
 ## Setup (under 10 minutes)
