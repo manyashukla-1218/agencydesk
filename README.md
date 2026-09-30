@@ -90,12 +90,11 @@ frontend/
 DESIGN.md
 ```
 
-## Known simplifications (in scope per the brief, called out for the interview)
+## Known simplifications
 
 - File storage is local disk (`UPLOAD_DIR`), not S3 — fine for a take-home,
   swappable behind the same `storage_key` field in production.
-- No Timeline/Gantt view, full CRM, or automations — explicitly out of
-  scope per the assignment brief.
+- Not implemented: Timeline/Gantt (discuss-only per the brief), Full CRM (out of scope), and the Bonus items (client intake forms, automations), skipped to keep the required scope solid and well tested.
 - Postgres Row-Level-Security is discussed as a defense-in-depth option in
   DESIGN.md but not implemented — the assignment's isolation requirement is
   met at the application layer (`TenantScope`) and covered by tests.
